@@ -31,6 +31,10 @@ def fb_env(screen: pygame.Surface):
         pygame.display.update()
 
 
+def print_hello():
+    print("hello")
+
+
 def show(screen: pygame.Surface, bird: FlappyBirdLogic) -> None:
     white = (255, 255, 255)
     black = (0, 0, 0)
